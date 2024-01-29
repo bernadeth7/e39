@@ -3,7 +3,7 @@ window.onload=()=>{
     setInterval(function(){
         sec+=add1()
         if(sec==10){
-            timer=0
+            sec=0
         };
     },1000);
     function add1(){
